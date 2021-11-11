@@ -18,7 +18,7 @@ public class exercie10 {
             counter = counter + 1;//add to the amount of guess for the first user
             cout = cout + 1;//add to the amount of guess for the second user
             if (casted < user1) {//if the first user guess is smaller then the compter number
-                System.out.println("the first user number is smaller then the compter number try another number");
+                System.out.println("the first user number is bigger then the compter number try another number");
                 counter =counter+1;//add to the amount of guess for the first user
                 user1 = se.nextInt();//ask the first user for another number
                 if (user1==casted){//if it true then exit this loop and go to the total
@@ -26,7 +26,7 @@ public class exercie10 {
                 }
             }
             if (casted > user1) {//if the first user guess is higher then the compter number
-                System.out.println("the first user number is higher then the compter number try another number");
+                System.out.println("the first user number is smaller then the compter number try another number");
                 counter = counter+1;//add to the amount of guess for the first user
                 user1 = se.nextInt();//ask the first user for another number
                 if (user1==casted){//if it true then exit this loop and go to the total
@@ -34,7 +34,7 @@ public class exercie10 {
                 }
             }
             if (casted < user2) {//if the second user guess is smaller then the compter number
-                System.out.println("the second user number is smaller then the compter number try another number");
+                System.out.println("the second user number is bigger then the compter number try another number");
                 cout = cout+1;//add to the amount of guess for the second user
                 user2 = se.nextInt();//ask the second user for another number
                 if (user2==casted){//if it true then exit this loop and go to the total
@@ -42,7 +42,7 @@ public class exercie10 {
                 }
             }
             if (casted > user2) {//if the second user guess is higher then the compter number
-                System.out.println("the second user number is higher  then the compter number try another number");
+                System.out.println("the second user number is smaller  then the compter number try another number");
                 cout = cout + 1;//add to the amount of guess for the second user
                 user2 = se.nextInt();//ask the second user for another number
                 if (user2==casted){//if it true then exit this loop and go to the total

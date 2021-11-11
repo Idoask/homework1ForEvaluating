@@ -1,6 +1,9 @@
 import java.util.Scanner;
 
 public class exercie4 {
+    public static void main(String[] args) {
+        quadraticEquation();
+    }
     public static void quadraticEquation(){//ex4
         Scanner sc=new Scanner(System.in);
         System.out.println("please enter a value");

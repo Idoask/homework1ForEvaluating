@@ -1,5 +1,8 @@
 import java.util.Scanner;
 public class exercie7 {
+    public static void main(String[] args) {
+        createAppointment();
+    }
     public static void createAppointment(){//ex7
         System.out.println("in which day you like to come");
         Scanner se=new Scanner(System.in);
@@ -25,7 +28,7 @@ public class exercie7 {
             return;
         }
         if (day==3 && early>12 || late<8){
-            System.out.println("we work from 8:00 until 12:00");
+            System.out.println("we work from 8:00 until 12:00 on tuesday");
             return;
         }
         System.out.println("appointmet approved");

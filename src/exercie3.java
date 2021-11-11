@@ -1,10 +1,16 @@
 import java.util.Scanner;
 
 public class exercie3 {
+    public static void main(String[] args) {
+        printInOrder();
+    }
     public static void printInOrder(){ //ex3
         Scanner sc=new Scanner(System.in);
+        System.out.println("please enter first number");
         int firstNum= sc.nextInt();//collect the first value
+        System.out.println("please enter second number");
         int secondNum= sc.nextInt();//collect second
+        System.out.println("please enter third number");
         int thirdNum= sc.nextInt();//collect third
         if (firstNum>secondNum && secondNum>thirdNum){//op1
             System.out.println(firstNum+", "+secondNum+", "+thirdNum);

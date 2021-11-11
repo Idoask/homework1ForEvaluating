@@ -7,7 +7,11 @@ public class exercie6 {
         System.out.println("please enter the gpe");
         int d=se.nextInt();//gpe input
         System.out.println("amunt of number in series");
-        int n=se.nextInt();//input nums
+        int n = se.nextInt();
+        if (n<1){
+            System.out.println("please enter n greater than zero and integer");
+            return;
+        }
         prog(firstNum,d,n);
     }
     public static void prog(int a1,int d,int n){//ex6
